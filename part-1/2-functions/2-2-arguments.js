@@ -17,3 +17,11 @@ function sumAll() {
 }
 
 sumAll(1, 2, 3, 4, 5); //15
+
+/******************************************************************************/
+//arguments is not an array
+function test() {
+  return arguments.slice(arguments.length - 1)[0]; //ERROR, there is not slice method
+}
+
+console.log(1, 2, 3, 4, 5);

@@ -3,6 +3,7 @@ var a = 1;
 console.log(typeof a); //number
 console.log(typeof "some value"); //string
 console.log(typeof true); //boolean
+console.log(typeof function () {}); //function
 
 //undefined
 console.log(typeof undefined); //undefined
