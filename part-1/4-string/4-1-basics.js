@@ -7,6 +7,8 @@ console.log(oneName.charAt(100)); //""
 console.log(oneName < anotherName); //false, BAD as not locale sensitive
 console.log(oneName.localeCompare(anotherName)); //1, GOOD
 
+console.log("abc" === ("a" + "b" + "c")); //true, no equals method
+
 //different useful methods
 "".concat;
 "".indexOf;
