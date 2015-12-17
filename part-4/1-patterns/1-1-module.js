@@ -12,6 +12,8 @@ internal1(); //ERROR, internal1 is not defined
 /******************************************************************************/
 
 var exports = (function() {
+  "use strict";
+  
   return {
     process: process,
     notify: notify
