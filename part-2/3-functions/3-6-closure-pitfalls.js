@@ -1,5 +1,5 @@
 
-function createVideoEditor(rootDomNode) {
+function creatseVideoEditor(rootDomNode) {
   var videoCanvas,
       videoLayers,
       videoChannels;
@@ -24,7 +24,7 @@ function createVideoEditor(rootDomNode) {
   };
 }
 
-var editor = createVideoEditor(document.getElementById("video"));
+var editor = creatseVideoEditor(document.getElementById("video"));
 
 //can result in memory leaks
 //we need to clean all references to/on dom nodes

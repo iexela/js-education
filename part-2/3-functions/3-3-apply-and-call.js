@@ -22,11 +22,11 @@ var petya = {
   name: "Petya",
   age: 24,
   feed: function (food) {
-    console.log("%s eat %s", this.name, food);
+    console.log("%s eats %s", this.name, food);
   }
 };
 
-petya.feed("potato"); //Petya eat potato
+petya.feed("potato"); //Petya eats potato
 
-petya.feed.apply(vasya, ["tomato"]); //Vasya eat tomato
-petya.feed.call(vasya, "tomato"); //Vasya eat tomato
+petya.feed.apply(vasya, ["tomato"]); //Vasya eats tomato
+petya.feed.call(vasya, "tomato"); //Vasya eats tomato

@@ -1,4 +1,5 @@
 var dogs = ["Jam", "Chida", "Fanya", "Vanna", "Bars"];
+//var dogs = new Array("Jam", "Chida", "Fanya", "Vanna", "Bars");
 
 console.log(dogs.length); //5
 console.log(dogs[2]); //"Fanya"
