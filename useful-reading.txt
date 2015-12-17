@@ -1,0 +1,4 @@
+MDN (developer.mozilla.org)
+
+Douglas Crockford. JavaScript: The Good Parts
+Michael Fogus. Functional JavaScript
