@@ -7,7 +7,8 @@ function createVideoEditor(rootDomNode) {
   //initialization of video canvas
 
   rootDomNode.on("click", function () {
-    //work with video canvas
+    //work with videoCanvas
+    //holds all object from outer scope (in FF and IE at least)
   });
 
   videoChannels.forEach(function (channel) {
