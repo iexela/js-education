@@ -20,3 +20,5 @@ function jQwery(selector, context) {
 jQwery.extend = function() {
   //some implementation
 };
+
+jQwery.extend();

@@ -11,7 +11,7 @@ console.log(dogs[2]);
 dogs[10] = "Sharik";
 console.log(dogs.length); //11
 
-console.log(dogs[20]); //20
+console.log(dogs[20]); //undefined
 
 dogs.length = 0;
 console.log(dogs); //[]

@@ -12,7 +12,7 @@ console.log(firstLetters); //["F", "V", "C"];
 
 //functional
 firstLetters = dogs.map(function (dog) {
-  return dogs[i].charAt(0);
+  return dog.charAt(0);
 });
 
 console.log(firstLetters); //["F", "V", "C"];

@@ -9,8 +9,10 @@ console.log(typeof function () {}); //function
 console.log(typeof undefined); //undefined
 console.log(typeof Worker === "undefined"); //true for old browsers
 
+
 //BUT
 console.log(typeof null); //object
 
 //and for array
-console.log(Array.iArray([])); //true;
+var array = [1];
+console.log(Array.isArray(array)); //true;

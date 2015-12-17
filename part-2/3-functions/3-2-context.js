@@ -8,6 +8,9 @@ var vasya = {
 
 vasya.print(); //Vasya is 25
 
+vasya = null;
+
+vasya.print(); //ERROR
 /******************************************************************************/
 
 var petya = {
@@ -21,7 +24,7 @@ var petya = {
 petya.print(); //Petya is 24
 
 vasya.print = petya.print;
-vasya.print(); //Petya is 25
+vasya.print(); //Vasya is 25
 
 /******************************************************************************/
 
