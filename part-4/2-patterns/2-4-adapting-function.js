@@ -47,9 +47,10 @@ function prop(obj, name, value) {
   }
 }
 
-prop(jam, age, 9);
-prop(jam, "age");
-prop(jam, {
+prop(jam, "age", 9); //setter
+prop(jam, "age");    //getter
+
+prop(jam, {          //multi setter
   name: "Unchida",
   age: 10
 });

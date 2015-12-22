@@ -29,3 +29,11 @@ bars.feed("potato"); //Bars eats potato
 console.log(jam.hasOwnProperty("feed")); //true
 console.log(bars.hasOwnProperty("feed")); //false
 console.log("feed" in bars); //true
+
+/******************************************************************************/
+
+Dog.getMyDogName = function () {
+  return "Jam";
+};
+
+var myDog = Dog.getMyDogName();
