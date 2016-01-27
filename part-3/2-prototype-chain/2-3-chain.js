@@ -3,9 +3,7 @@ function Pet(name, age) {
   this.name = name;
   this.age = age;
 }
-var obj = {};
-var obj = new Object({});
-Object.prototype;
+
 //Pet.prototype is an empty object (new Object())
 
 Pet.prototype.feed = function (what) {
@@ -17,8 +15,8 @@ function Dog(name, age) {
   Pet.call(this, name, age);
 }
 
-Dog.prototype = new Pet();
-// Dog.prototype.constructor = Dog;
+Dog.prototype = Object.create(Pet.prototype);
+Dog.prototype.constructor = Dog;
 //
 // Dog.prototype.love = function (what) {
 //   return this.name + " loves food rather than " + what;
